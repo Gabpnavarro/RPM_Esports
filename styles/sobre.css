@@ -1,0 +1,124 @@
+.sobre{
+    background-image: url("img/background__sobre.png") ;
+    background-size: cover;
+    background-position: center center;
+    background-color: #2C3133;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conheca__classe__carros > h2 , .conheca__grid > h2{
+    color: #00D45A;
+    font-weight: 800;  
+    margin: 1em;  
+}
+
+.conheca__grid > p{
+    color: white;
+}
+
+.youtube > img{
+    height: 250px;
+    width: 500px;
+    margin-bottom: 2em;
+}
+
+.carros{
+    background-color: black;
+    height: 200px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: white solid 1px;
+    border-bottom: 1px;
+    border-radius: 8px 8px 0px 0px;
+    justify-content: space-around;
+}
+
+.carros__subtitulo>img{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 1em;
+}
+
+.horarios__vagos{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.light, .pro{
+    padding: 1em;
+    border-radius: 0px 0px 8px 8px;
+    width: 250px;
+}
+
+.light{
+    background-image: linear-gradient(to right, #00AE74 10%,#007F50 90%);
+}
+
+.pro{
+    background-image: linear-gradient(to right, #FF0000 10%,#BA2A2A 90%);
+}
+
+.light>h2, .pro>h2{
+    color: white;
+    font-weight: 500;  
+}
+
+.conheca__classe__carros>h3{
+    color: white;    
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.conheca__classe__carros>h3>strong{
+    font-weight: 600;
+}
+
+.inscricao__duvidas{
+    display: flex;
+    color:white;
+    justify-content: center;
+}
+
+.inscricao>a>img , .duvidas>a>img{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.inscricao, .duvidas{
+    margin: 1em;
+    width: 200px;
+    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.inscricao>a, .duvidas>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0em 0.1em #333;
+    gap: 0.2em;
+    color: white;    
+}
+
+.inscricao{
+    background-color: #00D45A;
+    display: flex;
+    justify-content: center;
+}
+
+.duvidas{
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+}
+
+
