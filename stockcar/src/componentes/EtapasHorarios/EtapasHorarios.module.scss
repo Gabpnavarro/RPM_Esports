@@ -1,0 +1,29 @@
+.etapas__horarios {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    color: black;
+    margin: 1em;
+    font-weight: 600;
+  }
+
+  h2 {
+    color: #00af75;
+    font-weight: 800;
+    margin-bottom: 2em;
+  }
+}
+
+.informacoes {
+  width: 600px;
+  display: flex;
+  margin: 1em;
+  gap: 0.4em;
+  flex-direction: column;
+  align-items: flex-start;
+  color: black;
+  font-weight: 600;
+}

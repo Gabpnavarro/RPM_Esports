@@ -1,0 +1,39 @@
+
+.briefing__horario{
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #2E2E2E 30%,#2F2F2F 70%);
+    border-radius: 8px;  
+
+    h3{
+        margin: 0;
+    }
+}
+
+.briefing__horario>h5:first-child{
+    color: #00AF75;
+}
+
+.briefing__horario>h5:last-child{
+    color: #FF0000;
+}
+
+.liga_light, .liga_pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    text-align: center;
+    
+}
+.liga_light{
+    color: #00AF75;
+}
+
+.liga_pro{    
+    color: #FF0000;
+}

@@ -1,5 +1,12 @@
 import VideoYoutube from '../VideoYoutube';
 import styles from './Sobre.module.scss';
+import SobreClasseCarro from '../SobreClasseCarro';
+import corolla from '../../assets/corolla.png';
+import cruze from '../../assets/cruze.png';
+import SobreHorariosVagos from '../SobreHorariosVagos';
+import SobreInscricaoDuvidas from '../SobreInscricaoDuvidas';
+import inscrevase from '../../assets/icone__inscreva-se.png'
+import play from '../../assets/icone__play.png'
 
 function Sobre() {
     return (
@@ -12,7 +19,24 @@ function Sobre() {
                 </p>
                 <h2>CONHEÇA A CLASSE & CARROS</h2>
             </div>
+
             <VideoYoutube />
+
+            <SobreClasseCarro 
+                imagem1={cruze} 
+                imagem2={corolla} 
+            />
+
+            <SobreHorariosVagos />
+
+            <h3>O grid será definido com base na <strong>classificatória</strong> (confira a data abaixo)</h3>
+            
+            <SobreInscricaoDuvidas 
+                iconei={inscrevase}  
+                iconep={play}
+            />       
+            
+            
             
         </div>
     )

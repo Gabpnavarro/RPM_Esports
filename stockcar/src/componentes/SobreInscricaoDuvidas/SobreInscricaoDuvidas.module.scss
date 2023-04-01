@@ -1,0 +1,40 @@
+.inscricao__duvidas{
+    display: flex;
+    color:white;
+    justify-content: center;
+}
+
+.inscricao>a>img , .duvidas>a>img{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.inscricao, .duvidas{
+    margin: 1em;
+    width: 200px;
+    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.inscricao>a, .duvidas>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0em 0.1em #333;
+    gap: 0.2em;
+    color: white;    
+}
+
+.inscricao{
+    background-color: #00D45A;
+    display: flex;
+    justify-content: center;
+}
+
+.duvidas{
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+}
