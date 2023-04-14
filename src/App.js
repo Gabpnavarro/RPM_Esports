@@ -9,6 +9,8 @@ import InformacoesDetalhes from './componentes/InformacoesDetalhes';
 import botao from "./assets/icone_botao.png";
 import ConfiguracoesPremiacoes from './componentes/ConfiguracoesPremiacoes';
 
+import InscricoesCampeonato from './componentes/InscricoesCampeonato';
+
 
 function App() {
   return (
@@ -16,15 +18,13 @@ function App() {
       <Banner imagem={banner_img} />
       <section>
         <Sobre />
-        <EtapasHorarios />
-        <DownloadsTutorial  video={f3}/>
-        <InformacoesDetalhes botao={botao}/>
-        <ConfiguracoesPremiacoes />
-        
+        {/* <EtapasHorarios /> */}
+        {/* <DownloadsTutorial  video={f3}/> */}
+        {/* <InformacoesDetalhes botao={botao}/> */}
+        {/* <ConfiguracoesPremiacoes /> */}
 
+        <InscricoesCampeonato />
       </section>
-      
-
     </div>
   )
 }

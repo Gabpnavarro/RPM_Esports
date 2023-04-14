@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+h2,h3,h4,h5,h6,p,span,a{
+  font-family: 'Poppins';
+}
+
 .informacoes__detalhes {
   background-image: url("../../assets/background__informacoes.png");
   background-position: center center;
@@ -17,7 +23,7 @@
 
 .detalhes {
   border: 1px solid white;
-  width: 500px;
+  width: 600px;
 }
 
 .informacoes,
@@ -39,7 +45,7 @@
   gap: 1em;
 
   span {
-    font-size: 15px;
+    font-size: 13px;
     color: #b1b1b1;
   }
 

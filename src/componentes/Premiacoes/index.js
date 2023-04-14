@@ -13,22 +13,22 @@ function Premiacoes(imagem) {
                 
                 <div className={styles.trofeu} >
                 <h3>Premiação <span className={styles.campeao}>Campeão</span> <span className={styles.pro}>PRO</span> </h3>
-                <img src={imagem.p1pro}></img>
+                <img alt='' src={imagem.p1pro} />
                 </div>
 
                 <div className={styles.trofeu} >
                 <h3>Premiação <span className={styles.vicecampeao}>Vice - Campeão</span> <span className={styles.pro}>PRO</span></h3>
-                <img src={imagem.p2pro}></img>
+                <img alt='' src={imagem.p2pro} />
                 </div>
 
                 <div className={styles.trofeu} >
                 <h3>Premiação <span className={styles.terceiro}>3° Colocado</span> <span className={styles.pro}>PRO</span></h3>
-                <img src={imagem.p3pro}></img>
+                <img alt='' src={imagem.p3pro} />
                 </div>
                 
                 <div className={styles.trofeu} >
                 <h3>Premiação <span className={styles.campeao}>Campeão</span> <span className={styles.light}>Light</span></h3>
-                <img src={imagem.p1light}></img>
+                <img alt='' src={imagem.p1light} />
                 </div>
 
             </div>

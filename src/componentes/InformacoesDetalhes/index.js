@@ -44,13 +44,13 @@ const InformacoesDetalhes = (icone) => {
         </h4>
         <div className={styles.video}>
           <h5>Quer entender como funciona?</h5>
-          <a href="">Assista.</a>
+          <a href="/home">Assista.</a>
         </div>
       </div>
 
       <div className={styles.tabela__equipe}>
-        <img src={icone.botao} />
-        <a href="">Equipes</a>
+        <img alt="" src={icone.botao} />
+        <a href="/home">Equipes</a>
       </div>
     </div>
   );
