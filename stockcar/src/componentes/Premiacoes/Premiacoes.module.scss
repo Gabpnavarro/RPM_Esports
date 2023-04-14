@@ -1,0 +1,66 @@
+.premiacoes {
+  margin-top: 2em;
+  background-color: #282626;
+  max-width: 900px;
+  width: 80%;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;  
+}
+
+
+.linha {
+    background-color: white;
+    height: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.todos_trofeus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.trofeu{
+    border: white 1px solid;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+    margin: 0 auto;
+
+    img{
+        width: 150px;
+        height: auto;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+}
+
+.campeao{
+    color: #E0C28B;
+}
+
+.vicecampeao{
+    color: #C7C7C7;
+}
+
+.terceiro{
+    color: #AA5B39;
+}
+
+.pro {
+    color: #E21C21;
+}
+
+.light{
+    color: #37A24E;
+}

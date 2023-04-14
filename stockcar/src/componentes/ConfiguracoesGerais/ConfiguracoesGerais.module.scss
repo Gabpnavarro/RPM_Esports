@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+h2,h3,h4,h5{
+  font-family: 'Poppins';
+}
+
+h2{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h4{
+  font-weight: 400;
+}
+
+h5{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h6{
+  font-weight: 400;
+}
+
+.ConfiguracoesGerais {
+  background-color: #282626;
+  max-width: 900px;
+  width: 80%;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+}
+
+.linha {
+  background-color: white;
+  height: 1px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.Configuracoes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.observacao{
+  margin: 1em 0;
+}
+
+.ConfiguracaoUnica {
+  margin-top: 1em;
+  border: solid 1px white;
+  width: 270px;
+  height: 300px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .agrupar{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+  }
+
+  .abaixo{
+    margin-top: 1em;
+  }
+
+  span{
+    margin:0 0.2em;
+  }
+  .verde{
+    color: #00FF13;
+  }
+
+  .greenlight{
+    color: #00FF13;
+  }
+
+  .gray{
+    color: #C7C7C7;
+  }
+
+  .orange{
+    color: #E75128;
+  }
+
+  .blue{
+    color: #1157E1;
+  }
+
+  .yellow{
+    color: #FFCC00;
+  }
+
+  .babyblue{
+    color: #C8E0FE;
+  }
+
+  .yellowchock{
+    color: #FDCA00;
+  }
+
+  .light{
+    color: #37A24E;
+  }
+
+  .pro{
+    color: #E21C21;
+  }
+}

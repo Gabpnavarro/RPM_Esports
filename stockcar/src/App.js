@@ -7,6 +7,7 @@ import DownloadsTutorial from './componentes/DownloadsTutorial';
 import f3 from "./assets/thumb-f3-silverstone.png";
 import InformacoesDetalhes from './componentes/InformacoesDetalhes';
 import botao from "./assets/icone_botao.png";
+import ConfiguracoesPremiacoes from './componentes/ConfiguracoesPremiacoes';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
         <EtapasHorarios />
         <DownloadsTutorial  video={f3}/>
         <InformacoesDetalhes botao={botao}/>
+        <ConfiguracoesPremiacoes />
+        
+
       </section>
       
 
