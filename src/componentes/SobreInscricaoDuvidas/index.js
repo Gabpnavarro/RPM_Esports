@@ -5,14 +5,14 @@ const SobreInscricaoDuvidas = (icone) => {
     <div className={styles.inscricao__duvidas}>
       <div className={styles.inscricao}>
         <a>
-          <img src={icone.iconei} />
+          <img alt='' src={icone.iconei} />
           Inscreva-se
         </a>
       </div>
 
       <div className={styles.duvidas}>
         <a>
-          <img src={icone.iconep} />
+          <img alt='' src={icone.iconep} />
           Dúvidas? Veja o vídeo
         </a>
       </div>

@@ -10,6 +10,8 @@ import botao from "./assets/icone_botao.png";
 import ConfiguracoesPremiacoes from './componentes/ConfiguracoesPremiacoes';
 
 import InscricoesCampeonato from './componentes/InscricoesCampeonato';
+import assetto from './assets/AcLogo.png';
+import pix from './assets/pix.jpg';
 
 
 function App() {
@@ -21,9 +23,9 @@ function App() {
         {/* <EtapasHorarios /> */}
         {/* <DownloadsTutorial  video={f3}/> */}
         {/* <InformacoesDetalhes botao={botao}/> */}
-        {/* <ConfiguracoesPremiacoes /> */}
+        <ConfiguracoesPremiacoes />
 
-        <InscricoesCampeonato />
+        <InscricoesCampeonato logo={assetto} pix={pix}/>
       </section>
     </div>
   )

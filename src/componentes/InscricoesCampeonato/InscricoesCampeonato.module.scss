@@ -1,12 +1,124 @@
-.inscricao{
-    background-image: url("../../assets/background__download.png") ;
-    height: 800px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.inscricao{    
+    background-image: url("../../assets/background__inscricao.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Poppins';    
+
+    color: white;
     .simuladores{
         display: flex;
     }
+}
 
+.simuladores{
+    padding-top: 3em;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    justify-content: center;
+
+    .simulador1{
+        text-align: center;
+        width: 300px;
+        padding: 2em;
+        background-color: black;
+    }
+    .simulador2{
+        text-align: center;
+        width: 300px;
+        padding: 2em;
+        background-color: #242323;
+    }
+    
 }
 
 .dados{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    border: 2px solid white;
+    width: 600px;    
+    margin: 0 auto;
+    background-color: #050505b7;
 
+    
+    img{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        height: auto;
+        width: 200px;
+    }
+
+    input, select{
+        font-size: 15px;
+        border: white 3px solid;
+        padding-left: 1.5em;
+        background-color: transparent;
+        height: 50px;
+        width: 430px;
+        text-align: left;
+        color: white;        
+    }
+
+    button{
+        width: 250px;
+        height: 2.5em;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 2em;
+    }   
+    
+    span{
+        color: #37AE78;
+    }
+
+    h3{
+        margin: 1em;
+        color: #ffd900;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    h2{
+        margin-bottom: 1em;
+    }
+    
+}
+
+.pagamento{
+    display: flex;
+    width: 600px;
+    margin: 5em auto 0;
+    padding-bottom: 5em;
+    gap: 1em;
+
+    img{
+        width: 200px;
+    }
+
+    .pagar{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+
+        span{
+            color: #3ED847;
+        }
+
+        h2{
+            margin-top: 0.2em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+
+        h4{
+            font-size: 18px;
+        }
+    }
 }

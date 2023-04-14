@@ -14,7 +14,7 @@ const Etapas = (imagem,texto) => {
 
       <div className={styles.etapa__data}>
         <div className={styles.datas}>
-          <img src={imagem.icone} />
+          <img alt='' src={imagem.icone} />
           <h5>2° Etapa - 18/04</h5>
         </div>
 
@@ -23,7 +23,7 @@ const Etapas = (imagem,texto) => {
 
       <div className={styles.etapa__data}>
         <div className={styles.datas}>
-          <img src={imagem.icone} />
+          <img alt='' src={imagem.icone} />
           <h5>3° Etapa - 25/04</h5>
         </div>
 
