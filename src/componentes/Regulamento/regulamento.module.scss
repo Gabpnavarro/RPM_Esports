@@ -1,0 +1,47 @@
+.regulamento{
+    margin: 0 auto;
+    width: 800px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    text-align: justify;    
+
+    .sumario{        
+        text-align: left;   
+    }
+
+    .espaco{
+        margin-top: 1em;
+    }
+
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 2em;
+        }
+        h3{
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+
+        p{
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        ol {
+            margin-top: 20px; 
+        }
+
+        li {
+            margin-bottom: 10px; 
+        }
+
+        a {
+            text-decoration: none; 
+            color: #000;
+        }
+
+        img{
+            width: 100%;
+        }
+}

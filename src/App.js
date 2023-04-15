@@ -13,19 +13,24 @@ import InscricoesCampeonato from './componentes/InscricoesCampeonato';
 import assetto from './assets/AcLogo.png';
 import pix from './assets/pix.jpg';
 
+import Regulamento from './componentes/Regulamento';
+import punicao from './assets/punicao.jpg';
+
 
 function App() {
   return (
     <div className="App">
       <Banner imagem={banner_img} />
       <section>
-        <Sobre />
-        {/* <EtapasHorarios /> */}
-        {/* <DownloadsTutorial  video={f3}/> */}
-        {/* <InformacoesDetalhes botao={botao}/> */}
-        <ConfiguracoesPremiacoes />
+        {/* <Sobre />
+        <EtapasHorarios />
+        <DownloadsTutorial  video={f3}/>
+        <InformacoesDetalhes botao={botao}/>
+        <ConfiguracoesPremiacoes /> */}
 
-        <InscricoesCampeonato logo={assetto} pix={pix}/>
+        <Regulamento punicao={punicao}/>
+
+        {/* <InscricoesCampeonato logo={assetto} pix={pix}/> */}
       </section>
     </div>
   )

@@ -73,7 +73,7 @@ function ConfiguracoesGerais() {
 
           <div className={styles.agrupar}>
             <h5>APP Real Penlaty: <span className={styles.yellowchock}>Sim</span></h5>
-            <h5>3 Cortes de curva = <span className={styles.yellowchock}>3s</span></h5>
+            <h5>3 Cortes de curva: <span className={styles.yellowchock}>3s</span></h5>
             <h5>Limite no pit: <span className={styles.yellowchock}>80 KM/h</span></h5>
             <h5>Punição excesso de velocidade:<span className={styles.yellowchock}>5s</span></h5>
             <h5>Forçar visão interior: <span className={styles.greenlight}>Não</span></h5>
