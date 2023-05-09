@@ -28,9 +28,9 @@ function App() {
         <InformacoesDetalhes botao={botao}/>
         <ConfiguracoesPremiacoes /> */}
 
-        <Regulamento punicao={punicao}/>
+        {/* <Regulamento punicao={punicao}/> */}
 
-        {/* <InscricoesCampeonato logo={assetto} pix={pix}/> */}
+        <InscricoesCampeonato logo={assetto} pix={pix}/>
       </section>
     </div>
   )

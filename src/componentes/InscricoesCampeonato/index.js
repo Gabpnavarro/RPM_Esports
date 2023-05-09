@@ -20,26 +20,45 @@ function InscricoesCampeonato(imagem) {
           type="text"
           id="nomeSobrenome"
           name="nomeSobrenome"
-          value="Nome & Sobrenome"
-        ></input>
-
+          placeholder="Nome & Sobrenome"
+          required
+        />
+        
         <input
           type="text"
           id="nickname"
           name="nickname"
-          value="Nickname"
-        ></input>
+          placeholder="Nickname"
+          required
+        />
 
         <input
-          type="text"
+          type="number"
           id="whatsApp"
           name="whatsApp"
-          value="Número do WhatsApp"
-        ></input>
+          placeholder="Número do WhatsApp"
+          pattern="\(\d{2}\) \d{5}\-\d{4}"
+          required
+        />
 
-        <input type="text" id="steamID" name="steamID" value="SteamID"></input>
+        <input 
+          type="number" 
+          id="steamID" 
+          name="steamID" 
+          placeholder="SteamID"
+          pattern="[\d]{17}"
+          required
+        />
 
-        <select id="carro" name="carro">
+        <input 
+          type="date" 
+          id="dataNasciomento" 
+          name="dataNascimento" 
+          placeholder="Data de Nascimento"
+          required
+        />  
+
+        <select id="carro" name="carro" style={{background: 'black'}}>
           <option value="">Escolha seu carro (Desempenho Igual)</option>
           <option value="corolla">Corolla</option>
           <option value="cruze">Cruze</option>
@@ -49,8 +68,9 @@ function InscricoesCampeonato(imagem) {
           type="text"
           id="comprovante"
           name="comprovante"
-          value="+ Comprovante (Imagem ou Print da tela)"
-        ></input>
+          placeholder="+ Comprovante (Imagem ou Print da tela)"
+          required
+        />
 
         <h3>
           Para o comprovante, escolha uma opção mais compatível para você.
@@ -59,7 +79,7 @@ function InscricoesCampeonato(imagem) {
           Valor de Inscrição: <span>R$30,00</span>
         </h2>
 
-        <button type="submit">Confirmar Inscrição</button>
+        <button type="submit" onClick={() => alert('Inscrição confirmada!')}>Confirmar Inscrição</button>
       </div>
 
       <div className={styles.pagamento}>

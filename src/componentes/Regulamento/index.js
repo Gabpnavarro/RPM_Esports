@@ -3,7 +3,6 @@ import styles from "./regulamento.module.scss";
 function Regulamento(imagem) {
   return (
     <div className={styles.regulamento}>
-
       <div className={styles.sumario}>
         <h2>SUMÁRIO</h2>
         <ol>
@@ -58,18 +57,31 @@ function Regulamento(imagem) {
             </a>
           </li>
           <li>
-            <a href="#pontuacao-equipe">
+            <a href="#pontuacaoequipe">
               12. PONTUAÇÃO DE EQUIPES/PILOTO RESERVA/SUBSTITUTO/PINTURAS
             </a>
           </li>
           <li>
-            <a href="#divulgacao">
+            <a href="#resultado">
               13. DIVULGAÇÃO DE LIGA/EVENTO/E OUTRAS MÍDIAS NAS REDES SOCIAIS
             </a>
           </li>
           <li>
-            <a href="#restricao">
-              14. RESTRIÇÃO DE IDADE PARA MÍDIAS SOCIAIS/ENTREVISTAS
+            <a href="#skins">14. ENVIO DE PINTURAS (SKINS)</a>
+          </li>
+          <li>
+            <a href="#trofeu">
+              15. ENTREGA DE TROFÉU (PREMIAÇÃO DO CAMPEONATO)
+            </a>
+          </li>
+          <li>
+            <a href="#redessociais">
+              16. DIVULGAÇÃO DE LIGA/EVENTO/OUTRAS MÍDIAS NAS REDES SOCIAIS
+            </a>
+          </li>
+          <li>
+            <a href="#idade">
+              17. RESTRIÇÃO DE IDADE PARA MÍDIAS SOCIAIS/ENTREVISTAS
             </a>
           </li>
         </ol>
@@ -77,33 +89,30 @@ function Regulamento(imagem) {
 
       <div id="introducao" className={styles.oficial}>
         <h2>1. INTRODUÇÃO - SEJA BEM VINDO A RPM ESPORTS</h2>
-        <ol>
-          <li>1.1 O que é a RPM?</li>
 
-          <li>
-            RPM Esports é um clube de pilotos e também Liga E-Sports focada
-            atualmente no automobilismo virtual, ou seja, eventos virtuais nos
-            jogos pré-definidos, visando temporadas divertidas, competitivas,
-            emocionantes e memoráveis, dando valor a cada uma delas e seus
-            pilotos através do Hall da Fama no site. Todos os links necessários
-            e informações sobre as etapas/datas/regras e outros detalhes estão
-            aqui:
-            <a href="https://linktr.ee/RPMEsports" target="_blank">
-              https://linktr.ee/RPMEsports
-            </a>
-          </li>
-          <li>1.2 Qual a proposta? Onde queremos chegar?</li>
-          <li>
-            {" "}
-            RPM Esports tem como principal objetivo presenciar corridas de nível
-            iniciante, intermediário e competitivo, visando a evolução na pista,
-            acessibilidade ao Automobilismo Virtual e claro, muita diversão.
-            Temos como grande objetivo promover o Automobilismo Virtual,
-            trazendo mais pessoas para este universo e tirando esta categoria
-            dos jogos de nicho, ou seja, transformar o AV em uma categoria mais
-            jogada e respeitada do que é atualmente, com muito mais variedade.
-          </li>
-        </ol>
+        <h3>1.1 O que é a RPM?</h3>
+
+        <p>
+          RPM Esports é um clube de pilotos e também Liga E-Sports focada
+          atualmente no automobilismo virtual, ou seja, eventos virtuais nos
+          jogos pré-definidos, visando temporadas divertidas, competitivas,
+          emocionantes e memoráveis, dando valor a cada uma delas e seus pilotos
+          através do Hall da Fama no site. Todos os links necessários e
+          informações sobre as etapas/datas/regras e outros detalhes estão aqui:
+          <a href="https://linktr.ee/RPMEsports" target="_blank">
+            https://linktr.ee/RPMEsports
+          </a>
+        </p>
+        <h3>1.2 Qual a proposta? Onde queremos chegar?</h3>
+        <p>          
+          RPM Esports tem como principal objetivo presenciar corridas de nível
+          iniciante, intermediário e competitivo, visando a evolução na pista,
+          acessibilidade ao Automobilismo Virtual e claro, muita diversão. Temos
+          como grande objetivo promover o Automobilismo Virtual, trazendo mais
+          pessoas para este universo e tirando esta categoria dos jogos de
+          nicho, ou seja, transformar o AV em uma categoria mais jogada e
+          respeitada do que é atualmente, com muito mais variedade.
+        </p>
       </div>
 
       <div id="links" className={styles.oficial}>
@@ -127,30 +136,24 @@ function Regulamento(imagem) {
 
       <div id="respeito" className={styles.oficial}>
         <h2>3. RESPEITO ENTRE OS MEMBROS DO GRUPO E DIREITOS DE IMAGEM</h2>
-        <h3>
-          3.1 Respeito com os demais pilotos e pessoas do grupo em qualquer meio
-          de comunicação da RPM Esports
-        </h3>
         <p>
-          Qualquer tipo de preconceito, desrespeito, postagem de conteúdo
+          3.1 Respeito com os demais pilotos e pessoas do grupo em qualquer meio
+          de comunicação da RPM Esports, qualquer tipo de preconceito, desrespeito, postagem de conteúdo
           indevido como conteúdos de política, pornografia, discursos de ódio,
           violência, intolerância religiosa ou racial não será tolerado, podendo
           ser aplicado o banimento do mesmo, e dependendo da gravidade, podendo
           ser permanente.
         </p>
-        <h3>
-          3.2 Desrespeito a jogadores que utilizam assistências de pilotagem não
-          será tolerado
-        </h3>
         <p>
-          Esta atitude poderá resultar na remoção do grupo por tempo
+          3.2 Desrespeito a jogadores que utilizam assistências de pilotagem não
+          será tolerado esta atitude poderá resultar na remoção do grupo por tempo
           indeterminado.
         </p>
-        <h3>
+        <p>
           3.3 Os pilotos inscritos ou participantes de algum evento oficial na
           RPM Esports autorizam a utilização da imagem e voz nas transmissões ao
           vivo e atividades promovidas pela organização.
-        </h3>
+        </p>
       </div>
 
       <div id="inscricao" className={styles.oficial}>
@@ -162,7 +165,7 @@ function Regulamento(imagem) {
         </p>
         <p>
           A forma de pagamento/recebimento da premiação é feita unicamente
-          através da plataforma PIX via chave ou QR CODE que será comunicada
+          através da plataforma PIX via chave ou <a href="https://nubank.com.br/pagar/1atiol/ZBb2rN7rwC">QR CODE</a> que será comunicada
           através dos sistemas de inscrição ou redes sociais e também no site.
         </p>
         <p>
@@ -173,10 +176,10 @@ function Regulamento(imagem) {
           haver exceções).
         </p>
 
-        <h3>
+        <p>
           4.2 Para participação parcial da temporada, temos um desconto nos
           valores da inscrição:
-        </h3>
+        </p>
         <p>Participação a partir da 1ª até a 3ª etapa = valor padrão.</p>
         <p>Participação a partir da 4ª etapa = 50% de desconto do valor.</p>
 
@@ -425,18 +428,226 @@ function Regulamento(imagem) {
           9.1 Segue abaixo as punições que podem ser aplicadas em caso de pedido
           de análise ou casos notados na transmissão ao vivo, grupo e redes
           sociais:
-        </p>  
-        <img
-        alt=""
-        src={imagem.punicao}
-        />          
-         
+        </p>
+        <img alt="" src={imagem.punicao} />
       </div>
 
+      <div id="configuracoes" className={styles.oficial}>
+        <h2>10. CONFIGURAÇÕES DE LOBBY E FORMATO DE CORRIDA</h2>
+        <p>
+          10.1 Configurações de lobby/Assistências/Formato de corrida e outras
+          configurações mais detalhadas poderão ser encontradas no site oficial
+          da RPM Esports:{" "}
+          <a href="https://www.rpmesports.com.br">
+            https://www.rpmesports.com.br
+          </a>{" "}
+          - passe o mouse na aba "Calendário" e escolha a categoria desejada. As
+          configurações poderão ser ajustadas a qualquer momento, e caso
+          aconteça tudo será informado via grupo do WhatsApp e Briefing antes da
+          corrida.
+        </p>
+        <p>
+          10.2 A partir dos 10 minutos restantes para o início da corrida, a
+          prioridade muda para quem já está no lobby (seja reserva ou suplente),
+          então se o piloto com maior prioridade (piloto principal) chegar
+          atrasado, ele perde o direito desta prioridade. (Exemplo: corrida às
+          21:00, limite máximo às 20:50 para a prioridade normal valer.)
+        </p>
+        <p>
+          10.3 Em caso de travamento do lobby em qualquer momento da etapa, será
+          reaberto um novo Qualy de 5 a 10 minutos + Corrida, debitando o tempo
+          já passado antes do travamento. Por exemplo, a corrida tinha 30
+          minutos e 10 tinham se passado, a sessão será reaberta com 20 minutos
+          (debitando os 10 passados ou o mais próximo disso). Serão 2 tentativas
+          no máximo.
+        </p>
+        <p>
+          10.4 Se não houver solução para o problema técnico durante a prova e
+          ela estava a menos de 50% da corrida, a etapa será cancelada e os
+          pontos somados pela METADE com base na classificação do QUALY. Porém,
+          se mais de 50% da corrida for concluída, a pontuação será distribuída
+          normalmente com base na volta anterior ao problema.
+        </p>
+      </div>
 
+      <div id="pontuacao" className={styles.oficial}>
+        <h2>11. PONTUAÇÃO DAS CORRIDAS PARA OS CAMPEONATOS</h2>
+        <p>
+          11.1 O G3 (3 Pilotos mais bem colocados) do grid de nível mais baixo
+          (1 estrela/LIGHT) ficarão impossibilitados de jogar neste mesmo grid
+          nas próximas 3 temporadas. Podendo optar por subir para o grid de
+          nível mais alto (2 estrelas ou mais como o PRO-AM).
+        </p>
+      </div>
 
+      <div id="pontuacaoequipe" className={styles.oficial}>
+        <h2>12. PONTUAÇÃO DE EQUIPES/PILOTO RESERVA/SUBSTITUTO</h2>
+        <p>
+          12.1 Para os campeonatos em duplas com pontuação de construtores
+          (equipes) a pontuação será a somados pontos dos 2 pilotos. Por
+          exemplo: Márcio fez 25 pontos e Luan 10, a equipe deles pontuará 35
+          pontos (25+10). A formação das duplas será decidida primeiramente
+          através da escolha das equipes pelos pilotos inscritos, os mesmos
+          podem escolher uma das vagas e pintura (original ou skin
+          personalizada) e formar a dupla com quem preferirem. Os pilotos que
+          ficarem sem dupla serão sorteados no dia do anúncio das equipes (será
+          informado no site e grupo do WhatsApp).
+        </p>
+        <p>
+          12.2 Para os campeonatos em duplas, um piloto reserva poderá
+          substituir outro piloto que falte e deixe uma vaga livre, (a
+          prioridade de entrada é definida por quem se inscreveu primeiro no
+          site). Por exemplo: Luiz e Fábio estão na equipe Shell V-Power, porém
+          em qualquer uma das etapas Luiz falta, um dos pilotos reserva poderá
+          entrar em seu lugar e somar os pontos para a equipe Shell V-Power
+          (isso não poderá ser feito por pilotos de outras equipes).
+        </p>
+        <p>
+          12.3 Para os campeonatos como formato de equipe dinâmica, será
+          realizado sorteio para definição dos pilotos de cada uma (exceto no
+          caso dos parceiros que tem direito de 2 ou 4 escolhas para sua equipe
+          dependendo do plano acordado). Temos também o sistema de substituição
+          dentro da mesma equipe para as ausências, por exemplo, Luiz Gomes da
+          equipe RPM falta, outro piloto desta mesma equipe poderá substituí-lo
+          nesta corrida, é obrigatório o aviso na lista de presença tanto do
+          piloto ausente quanto do substituto. O mesmo piloto que está
+          substituindo também deverá respeitar todas as regras e caso receba um
+          pedido de análise e a mesma seja aprovada, a punição será direcionada
+          a seu grid principal.{" "}
+        </p>
+        <p>Exemplos de sinalização na lista de presença:</p>
+        <p>
+          12.4 No caso de dupla ou tripla inscrição (2 ou 3 grids), a vaga do
+          grid mais alto ou definida pela direção contará principal para o
+          sistema de equipes dinâmico, as outras serão alocadas na Equipe Livre
+          que não disputa o campeonato. Porém, mesmo assim pode-se substituir um
+          piloto ou vaga livre disponível na sua equipe.
+        </p>
+        <p>
+          12.5 A inscrição como piloto reserva (inscrição após esgotamento das
+          vagas) deverá realizar os mesmos procedimentos no site como qualquer
+          outro piloto. O piloto reserva terá de depender da ausência de um
+          piloto principal e caso não consiga participar por falta de vagas,
+          poderá requisitar o reembolso da inscrição ou alteração do grid caso
+          queira.{" "}
+        </p>
+      </div>
 
+      <div id="resultado" className={styles.oficial}>
+        <h2>13. DESCARTE DO PIOR RESULTADO NA TEMPORADA</h2>
+        <p>
+          Para pontuação do campeonato (Individual & equipes) temos o sistema de
+          descarte, que habilita ao piloto uma chance de recuperação no
+          campeonato após um abandono, não participação ou mau desempenho. Será
+          permitido descartar apenas 1 etapa, seja ela por ausência, abandono ou
+          pior resultado em pontuação. Substituições dentro do campeonato de
+          equipes dinâmico ou de eventos especiais como a World Series não podem
+          ser descartados.
+        </p>
+      </div>
 
+      <div id="skins" className={styles.oficial}>
+        <h2>14. ENVIO DE PINTURAS (SKINS)</h2>
+        <p>
+          O envio de skins e pinturas é feito através do site (aba Skin-set) e
+          deve respeitar algumas regras a seguir:
+        </p>
+        <ul>
+          <li>
+            Automobilista 2: deve ser feito o envio da pasta com o nome da skin
+            + arquivo XML com os dados necessários. (
+            <a href="exemploaqui">exemplo aqui</a>)
+          </li>
+          <li>
+            Assetto Corsa 1: deve ser feito o envio da pasta com os conteúdos da
+            skin (<a href="exemploaqui">exemplo aqui</a>) e também o envio da
+            sua GUID (<a href="exemploaqui">exemplo aqui</a>)
+          </li>
+          <li>
+            AC Competizione: deve ser feito o envio da pasta "Customs" e seu
+            conteúdo (<a href="exemploaqui">exemplo aqui</a>)
+          </li>
+        </ul>
+        <p>
+          Qualquer pintura que seja enviada fora dos padrões acima será
+          desconsiderada.
+        </p>
+        <p>
+          O prazo máximo para envio da pintura (para ser incluída no pacote
+          Skin-Set) fica sempre no site (aba calendário, escolha seu grid)
+          localizado na parte inferior da página. Após este prazo, as pinturas
+          não serão mais adicionadas ao skin-set, mas ainda podem ser enviadas
+          para aparecerem na transmissão ao vivo.
+        </p>
+      </div>
+
+      <div id="trofeu" className={styles.oficial}>
+        <h2>15. ENTREGA DE TROFÉU (PREMIAÇÃO DO CAMPEONATO)</h2>
+        <p>
+          Os premiados com troféu receberão o prêmio que será enviado pelos
+          correios para qualquer região do Brasil, porém temos algumas
+          limitações principalmente com valores de frete e também valor mínimo
+          para compra no site da fornecedora, então algumas regras terão de ser
+          seguidas:
+        </p>
+        <ul>
+          <li>
+            Primeiramente precisamos deixar claro que é a primeira vez que
+            iremos introduzir este novo sistema de premiações, portanto ainda é
+            necessário todo o entendimento e aperfeiçoamento do mesmo, ou seja,
+            precisamos da compreensão de todos com possíveis imprevistos que
+            possam acontecer.
+          </li>
+          <li>
+            O troféu só poderá ser entregue quando o valor mínimo do pedido para
+            a fornecedora for atingido, simplificando, precisaremos entregar os
+            troféus de 5 em 5 meses para concluirmos esse objetivo.
+          </li>
+          <li>
+            O valor do frete será pago pela organização e pelo piloto, o
+            primeiro valor (para trazer todos os troféus) será pago pela
+            organização, o segundo valor (frete da organização para o piloto)
+            será pago pelo próprio piloto.
+          </li>
+        </ul>
+      </div>
+
+      <div id="redessociais" className={styles.oficial}>
+        <h2>16. DIVULGAÇÃO DE LIGA/EVENTO/OUTRAS MÍDIAS NAS REDES SOCIAIS</h2>
+        <p>
+          16.1 É proibida a divulgação de incidentes/exposição de pilotos nos
+          grupos/redes sociais/chats in-game e outros meios de comunicação, seja
+          de campeonatos feitos pela RPM ou qualquer outra liga no Assetto Corsa
+          ou até mesmo em outros jogos. Será feita uma advertência e caso não
+          seja respeitada, resultará na remoção/banimento do piloto do meio de
+          comunicação em que foi feita a divulgação, ou até mesmo o banimento
+          permanente de toda a liga dependendo da gravidade.
+        </p>
+        <p>
+          16.2 Divulgação de ligas/corridas/links e outras maneiras de promover
+          seu grupo/campeonato/organização através das redes sociais da RPM
+          Esports sem autorização, não poderão ser feitas.
+        </p>
+      </div>
+
+      <div id="idade" className={styles.oficial}>
+        <h2>17. RESTRIÇÃO DE IDADE PARA MÍDIAS SOCIAIS/ENTREVISTAS</h2>
+        <p>
+          17.1 Todo piloto menor de 13 anos só poderá participar das mídias
+          sociais e eventos RPMEsports com a supervisão dos responsáveis,
+          evitando assim maiores problemas.
+        </p>
+        <p>
+          17.2 Após o término dos eventos, temos as entrevistas com os
+          participantes no nosso Discord, a participação não é obrigatória,
+          porém ao participar algumas regras devem ser seguidas. Qualquer tipo
+          de ofensa verbal, ou indiretas feitas para tentar denegrir a imagem de
+          qualquer participante ou equipe jamais serão permitidas, caso ocorra
+          será dada uma advertência, se não houver a colaboração, o usuário será
+          mutado até o fim da entrevista, e dependendo da gravidade, poderá
+          resultar no banimento/suspensão do piloto da liga.
+        </p>
+      </div>
     </div>
   );
 }
