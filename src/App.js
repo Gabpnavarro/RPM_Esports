@@ -13,8 +13,11 @@ import InscricoesCampeonato from './componentes/InscricoesCampeonato';
 import assetto from './assets/AcLogo.png';
 import pix from './assets/pix.jpg';
 
+import AnaliseProtesto from './componentes/AnaliseProtesto';
+
 import Regulamento from './componentes/Regulamento';
 import punicao from './assets/punicao.jpg';
+import TabelaPontos from './componentes/TabelaPontos';
 
 
 function App() {
@@ -29,8 +32,12 @@ function App() {
         <ConfiguracoesPremiacoes /> */}
 
         {/* <Regulamento punicao={punicao}/> */}
+        {/* <InscricoesCampeonato logo={assetto} pix={pix}/>  */}
 
-        <InscricoesCampeonato logo={assetto} pix={pix}/>
+        <AnaliseProtesto/>
+        <TabelaPontos/>
+
+
       </section>
     </div>
   )

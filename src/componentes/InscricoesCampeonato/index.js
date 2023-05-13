@@ -1,7 +1,13 @@
 import styles from "./InscricoesCampeonato.module.scss";
+import Formulario from './validacao.js';
+
 
 function InscricoesCampeonato(imagem) {
-  return (
+  
+  <Formulario/>
+
+  return (      
+
     <div className={styles.inscricao}>
       <div className={styles.simuladores}>
         <div className={styles.simulador1}>
@@ -36,7 +42,7 @@ function InscricoesCampeonato(imagem) {
           type="number"
           id="whatsApp"
           name="whatsApp"
-          placeholder="Número do WhatsApp"
+          placeholder="+XX (XX) XXXXX-XXXX"
           pattern="\(\d{2}\) \d{5}\-\d{4}"
           required
         />
