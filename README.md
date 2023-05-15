@@ -1,4 +1,4 @@
-<h1>RPM Esport</h1>
+<h1>RPM Esports</h1>
 
 <p>Este é um projeto de criação de um site de automobilismo virtual, chamado RPM Esport, usando tecnologias como React, SCSS, JavaScript e HTML. Atualmente, estou trabalhando apenas na parte front end do projeto e gerenciando minhas tarefas para adicioná-las posteriormente ao repositório principal.</p>
 
@@ -10,7 +10,7 @@
 
 <ol>
 	<li>Instale o Node.js em sua máquina.</li>
-	<li>Clone o repositório do projeto usando o comando <code>git clone https://github.com/Gabpnavarro/stock-car</code>.</li>
+	<li>Clone o repositório do projeto usando o comando <code>git clone https://github.com/Gabpnavarro/RPM_Esports</code>.</li>
 	<li>Instale as dependências do projeto usando <code>npm install</code> ou <code>yarn install</code>.</li>
 	<li>Execute o projeto usando <code>npm start</code> ou <code>yarn start</code>.</li>
 </ol>
