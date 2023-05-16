@@ -18,15 +18,9 @@
 <h2>Tecnologias utilizadas</h2>
 
 <ul>
-	<li>HTML</li>
+  	<li>React</li>
 	<li>SCSS</li>
-	<li>JavaScript</li>
-  <li>React</li>
 </ul>
-
-<h2>Contribuição</h2>
-
-<p>Se você gostaria de contribuir para o projeto, por favor, abra uma pull request com as suas alterações ou crie uma nova issue para discutir novas ideias e funcionalidades.</p>
 
 <h3>Explicação da estrutura de pastas</h3>
 
