@@ -25,14 +25,14 @@ function App() {
     <div className="App">
       <Banner imagem={banner_img} />
       <section>
-        {/* <Sobre />
+        <Sobre />
         <EtapasHorarios />
         <DownloadsTutorial  video={f3}/>
         <InformacoesDetalhes botao={botao}/>
-        <ConfiguracoesPremiacoes /> */}
+        <ConfiguracoesPremiacoes /> 
 
-        {/* <Regulamento punicao={punicao}/> */}
-        {/* <InscricoesCampeonato logo={assetto} pix={pix}/>  */}
+        <Regulamento punicao={punicao}/> 
+        <InscricoesCampeonato logo={assetto} pix={pix}/> 
 
         <AnaliseProtesto/>
         <TabelaPontos/>
