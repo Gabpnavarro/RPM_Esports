@@ -1,6 +1,6 @@
 <h1>RPM Esports</h1>
 
-<p>Este é um projeto de criação do site de automobilismo virtual, RPM Esports, usando tecnologias como React e SCSS. Atualmente, estou trabalhando apenas na parte front end do projeto e gerenciando minhas tarefas para adicioná-las posteriormente ao repositório principal.</p>
+<p>Este é um projeto de criação do site de automobilismo virtual, RPM Esports, usando tecnologias como React e SCSS. Atualmente, estou trabalhando apenas na parte front end do projeto e gerenciando minhas tarefas para adicioná-las posteriormente ao repositório principal. Ao acessar o site vai reparar que tem várias páginas juntas. Por enquanto o processo de criação está por páginas, mas isso será organizado posteriormente, no projeto principal.</p>
 
 <p>O projeto está disponível no seguinte repositório: <a href="https://github.com/lfdutra1999/site-rpm">https://github.com/lfdutra1999/site-rpm</a></p>
 
