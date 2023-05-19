@@ -29,13 +29,11 @@ function App() {
         <EtapasHorarios />
         <DownloadsTutorial  video={f3}/>
         <InformacoesDetalhes botao={botao}/>
-        <ConfiguracoesPremiacoes /> 
-
-        <Regulamento punicao={punicao}/> 
+        <ConfiguracoesPremiacoes />      
         <InscricoesCampeonato logo={assetto} pix={pix}/> 
-
         <AnaliseProtesto/>
-        <TabelaPontos/>
+//         <TabelaPontos/>
+        <Regulamento punicao={punicao}/> 
 
 
       </section>
