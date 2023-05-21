@@ -32,7 +32,7 @@ function App() {
         <ConfiguracoesPremiacoes />      
         <InscricoesCampeonato logo={assetto} pix={pix}/> 
         <AnaliseProtesto/>
-//         <TabelaPontos/>
+        {/* <TabelaPontos/> */}
         <Regulamento punicao={punicao}/> 
 
 
