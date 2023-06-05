@@ -16,8 +16,12 @@ import pix from './assets/pix.jpg';
 import AnaliseProtesto from './componentes/AnaliseProtesto';
 
 import Regulamento from './componentes/Regulamento';
+
 import punicao from './assets/punicao.jpg';
+
 import TabelaPontos from './componentes/TabelaPontos';
+import mercedes from './assets/mercedes.jpg';
+import piloto from './assets/piloto.jpg';
 
 
 function App() {
@@ -25,18 +29,18 @@ function App() {
     <div className="App">
       <Banner imagem={banner_img} />
       <section>
-        {/* <Sobre />
+        <Sobre />
         <EtapasHorarios />
         <DownloadsTutorial  video={f3}/>
         <InformacoesDetalhes botao={botao}/>
-        <ConfiguracoesPremiacoes /> */}
+        <ConfiguracoesPremiacoes /> 
 
         {/* <Regulamento punicao={punicao}/> */}
-        {/* <InscricoesCampeonato logo={assetto} pix={pix}/>  */}
+        <InscricoesCampeonato logo={assetto} pix={pix}/> 
 
         <AnaliseProtesto/>
-        <TabelaPontos/>
-
+        
+        <TabelaPontos equipe={mercedes} piloto={piloto}/>
 
       </section>
     </div>
