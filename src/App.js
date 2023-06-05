@@ -33,6 +33,7 @@ function App() {
         <EtapasHorarios />
         <DownloadsTutorial  video={f3}/>
         <InformacoesDetalhes botao={botao}/>
+<<<<<<< HEAD
         <ConfiguracoesPremiacoes /> 
 
         {/* <Regulamento punicao={punicao}/> */}
@@ -41,6 +42,14 @@ function App() {
         <AnaliseProtesto/>
         
         <TabelaPontos equipe={mercedes} piloto={piloto}/>
+=======
+        <ConfiguracoesPremiacoes />      
+        <InscricoesCampeonato logo={assetto} pix={pix}/> 
+        <AnaliseProtesto/>
+        {/* <TabelaPontos/> */}
+        <Regulamento punicao={punicao}/> 
+
+>>>>>>> 8841e2eaae6da7f5579f723ec33c31b2f9ac7354
 
       </section>
     </div>
